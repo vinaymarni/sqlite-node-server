@@ -1,0 +1,13 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000
+content-type: application/json
+
+{ 
+    "id" : 3,
+    "place" : "africa",
+    "lon" : 22.9877,
+    "lat" : 97.7887
+}
